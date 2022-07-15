@@ -4,7 +4,7 @@
  In this repo I will add some question daily based on DSA concept.
    
 ##**Questions is based on following topic**
-    1] Mathematical 
+    1] Mathematical <br />
     2] Recursion 
     3] Array
     4] Searching

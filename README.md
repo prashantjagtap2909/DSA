@@ -3,12 +3,12 @@
  This repository is for beginner who want to learn Data structure and algorithm.<br />
  In this repo I will add some question daily based on DSA concept.<br />
    
-##**Questions is based on following topic**<br /><br />
-    1] Mathematical <br />----
-    2] Recursion <br />----
-    3] Array <br />----
-    4] Searching <br />----
-    5] Sorting <br />----
+##**Questions is based on following topic**<br /><br />. 
+    1] Mathematical <br />. 
+    2] Recursion <br />. 
+    3] Array <br />. 
+    4] Searching <br />. 
+    5] Sorting <br />. 
     6] Matrix <br />
     7] String <br />
     8] Hashing <br />

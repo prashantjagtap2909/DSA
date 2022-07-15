@@ -8,7 +8,7 @@
     2] Recursion <br /> 
     3] Array <br /> 
     4] Searching <br /> 
-    5] Sorting <br />  
+    5] Sorting <br /> 
     6] Matrix <br />
     7] String <br />
     8] Hashing <br />

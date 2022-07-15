@@ -4,11 +4,11 @@
  In this repo I will add some question daily based on DSA concept.<br />
    
 ##**Questions is based on following topic**<br /><br />
-   <pre>1] Mathematical <br /> </pre>
-    <pre> 2] Recursion <br />.</pre>
-   <pre> 3] Array <br /> </pre>
-  <pre>  4] Searching <br /> </pre>
-  <pre>  5] Sorting <br />  </pre>
+    1] Mathematical <br /> 
+    2] Recursion <br /> 
+    3] Array <br /> 
+    4] Searching <br /> 
+    5] Sorting <br />  
     6] Matrix <br />
     7] String <br />
     8] Hashing <br />

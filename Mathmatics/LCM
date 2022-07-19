@@ -1,0 +1,11 @@
+LCM
+
+int lcm(int a , int b){
+    int ans = max(a,b):
+    while(true){
+        if(ans%a == 0  && ans%b == 0)
+            return ans;
+        ans++;
+    }
+    return ans;
+}

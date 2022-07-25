@@ -1,0 +1,26 @@
+To find only the odd occuring number
+
+
+int find(int arr[],int n ){
+    for(int i =0;i<n;i++){
+        int count = 0;
+        for(int j = 0 ; j<n; j++){
+            if(arr[i] == arr[j])
+            count++;
+        if(count %2 !=0)
+            cout<<arr[i];
+   
+*******************************************************************
+Optimised solution
+
+int findOdd(int arr[],int n){
+    int res = 0;
+    for(int i = 0 ; i<n;i++)
+        res = res ^ arr[i];
+    return res;
+}
+
+
+
+Here we have written two solution for finding the only odd occuring number.
+first solution takes O(n^2) time and second takes O(n) time so second one is most efficient.

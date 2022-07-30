@@ -1,0 +1,12 @@
+Josephus problem (one of the famous question)
+
+int josephus(int n,int k){
+    if(n==1)
+        retunrn 0;
+    else
+        return (josephus(n-1),k+k)%n;
+}
+
+int res(int n,int k){
+   return josephus(n,k)+1;
+}

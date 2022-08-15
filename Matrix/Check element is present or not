@@ -1,0 +1,18 @@
+To check the element is present or not in sorted matrix
+
+void Search(int matrix[m][n],int x){
+    int i = 0,j = n-1;
+    while(i<m && j>=0){
+        if(matrix[i][j]==x){
+            return true;
+        }else if(matrix[i][j]>x){
+            j--;
+        }else{
+            i++;
+        }
+   }
+  return false;
+}
+
+
+Time complexity = O(n)

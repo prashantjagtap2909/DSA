@@ -1,0 +1,15 @@
+Print index of element in sorted matrix
+
+Void PrintIndex(int matrix[m][n],int x){
+    int i = 0,j = n-1;
+    while(i<n && j>=0){
+        if(matrix[i][j]==x){
+            cout<<"index is"+i<<""<<j<<"";
+        }else if(matrix[i][j]>x){
+            j--;
+        }else{
+            i++;
+        }
+    }
+cout<<"not found"<<endl;
+}

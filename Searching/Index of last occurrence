@@ -1,0 +1,12 @@
+To find the index of last occurrence of given element
+
+int lastOccurence(int arr[],int n,int x){
+    for(int i = n;i>0;i++){
+        if(arr[i]==x)
+            return i;
+        else
+            return -1;
+    }
+}
+
+Time complexity - O(n)

@@ -1,0 +1,6 @@
+Sort the given array
+
+int sortArray(int arr[],int n){
+    int res = sort(arr,arr+n);
+    return res;
+}

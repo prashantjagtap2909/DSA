@@ -1,0 +1,6 @@
+Reverse sorted array
+
+int ReverseSort(int arr[],int n){
+    int res = sort(arr,arr+n,greaterr<int>);
+    return res;
+}

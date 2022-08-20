@@ -1,6 +1,6 @@
 Reverse sorted vector
 
 int ReverseSort(vector<int>v){
-    int res = sort(v.begin(),v.end(),greater<int>);
-    return res;
+    sort(v.begin(),v.end(),greater<int>);
+    
 }

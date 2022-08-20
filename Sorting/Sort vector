@@ -1,6 +1,6 @@
 Sort vector
 
 int SortVector(vector<int>v){
-    int ans = sort(v.begin(),v.end());
-    return ans;
+    sort(v.begin(),v.end());
+    
 }

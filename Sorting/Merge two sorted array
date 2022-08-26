@@ -1,0 +1,18 @@
+To merge two sorted array
+
+void mergeArray(int a[],int b[],int m,int n){
+    vector<int>v;
+    int i=0,j=0;
+    while(i<m && j<n){
+        if(a[i] < b[i])
+            v.push_back(a[i++]);
+        else
+            v.push_back(b[j++]);
+    }
+    while(i<n)
+        v.push_back(a[i++]);
+    while(j<n)
+        v.push_back(b[j++]);
+    
+    return v;
+}

@@ -1,0 +1,22 @@
+Longest subarray of equal no. of 0's and 1's
+
+int longestSubarray(int arr[],int n){
+    int res = 0;
+    for(int i = 0;i<n;i++){
+        int count1 = 0,count2 = 0;
+        for(int j =0;j<n;j++){
+            if(arr[j]==0)
+                count1++;
+            else
+                count2++;
+            if(count1==count2)
+                res = max(res,count1+count2);
+        }
+    }
+    return res;
+}
+
+
+
+
+Time complexity = O(n^2)

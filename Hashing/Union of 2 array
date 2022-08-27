@@ -1,0 +1,9 @@
+Union of two array
+
+int union(int arr[],int brr[],int n,int m){
+    unordered_set<int>s(arr,arr+n);
+    for(int i =0;i<m;i++){
+        s.insert(brr[i]);
+    }
+    return s.size();
+}

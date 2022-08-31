@@ -22,4 +22,5 @@
  &emsp;  15] Graph <br />
  &emsp;  16] Dynamic Programming <br />
  &emsp;  17] Tries <br />
+ &emsp;  18] Linked list <br />
     

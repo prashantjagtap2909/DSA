@@ -1,0 +1,16 @@
+Interssection of two array
+
+int intersection(int arr1[],int arr2[],int m,int n){
+    unordered_set<int>s;
+    for(int i = 0;i<m;i++){
+        s.insert(arr1[i])
+    }
+    int res = 0;
+    for(int i =0;i<n;i++){
+        if(s.find(arr2[i] != s.end()){
+            res++;
+            s.erase(arr2[i])
+        }
+    }
+    return res;
+}

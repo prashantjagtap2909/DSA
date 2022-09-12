@@ -1,0 +1,17 @@
+Search the element in Matrix 
+
+void Search(int matrix[r][c],int x){
+    int i = 0, j = c-1;
+    while(i<r && j >= 0){
+        if(matrix[i][j]==x){
+            cout<<"fount at" << i<<" " <<j;
+            return ;
+        }
+        else if(matrix[i][j] > x){
+            j--;
+        }else {
+             i++;
+        }
+    }
+    cout<<"not found";
+}

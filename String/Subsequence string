@@ -1,0 +1,12 @@
+Check the string of other string
+
+bool isSubsequence(string s1 , int m , string s2,int n){
+    if(m==0)
+        return true;
+    if(n==0)
+        return false;
+    if(s1[m-1]==s2[n-1])
+        return isSubsequence(s1,s2,m-1,n-1);
+    else 
+        return isSubsequence(s1,s2,m-1,n);
+}

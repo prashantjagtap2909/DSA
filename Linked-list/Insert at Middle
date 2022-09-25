@@ -1,0 +1,24 @@
+Insert at the middle of Linked list
+
+Node* insertInMiddle(Node* head, int x)
+{
+
+	Node  * slow = head;
+	Node * fast = head;
+	
+	while(fast-> next != NULL){
+	    fast = fast->next;
+	    if(fast ->next != NULL){
+	        fast = fast ->next;
+	        
+	    }else{
+	        break;
+	    }
+	    slow = slow->next;
+	}
+	Node* AddNode = new Node(x);
+	AddNode->next = slow->next;
+	slow->next = AddNode;
+	
+	return head;
+}

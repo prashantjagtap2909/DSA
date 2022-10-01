@@ -1,0 +1,16 @@
+add node at given position in doubly linked list
+
+void addNode(Node *head, int pos, int data)
+{
+   Node * newNode = new Node (data);
+   Node * temp = head;
+   while(pos--){
+       temp = temp->next;
+   }
+   newNode->next = temp->next;
+   newNode->prev = temp;
+   if(temp->next != NULL){
+       temp->next->prev = newNode;
+   }
+   temp->next = newNode;
+}

@@ -1,7 +1,7 @@
 Count the substring equal to k-1
   
   int countOfSubstrings(string S, int K) {
-        // code 
+        
         int i = 0,j = 0,count = 0;
         int n = S.length();
         map<char , int>mp;

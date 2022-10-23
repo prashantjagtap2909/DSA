@@ -9,3 +9,5 @@ int MaxSum(int arr[],int n){
         res = max(MaxSub,res);
      }   
     return res
+
+time complexity -O(n)

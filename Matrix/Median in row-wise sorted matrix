@@ -1,0 +1,19 @@
+int median(vector<vector<int>> &matrix, int r, int c){
+       
+       int mini=INT_MAX,maxi=INT_MIN;
+        for(int i=0;i<r;i++){
+            if(matrix[i][0] < mini) mini=matrix[i][0];
+            if(maxi < matrix[i][c-1]) maxi=matrix[i][c-1];
+        }
+        int req=(r*c+1)/2;
+        while(mini<maxi){
+            int mid=(mini+maxi)/2;
+            int cnt =0;
+            for(int i=0;i<r;i++)
+             cnt += upper_bound(matrix[i].begin(), matrix[i].end(), mid)-matrix[i].begin();
+             
+             if(cnt<req) mini=mid+1;
+             else maxi=mid;
+        }
+        return mini;
+    }

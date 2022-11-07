@@ -1,19 +1,15 @@
 Inorder traversal of a tree
 
-vector<int>res;
-
-    vector<int> inOrder(Node* root) {
-        
-        if(root == NULL) 
-            return res;
-        
-        inOrder(root->left);
-        res.push_back(root->data);
-        inOrder(root->right);
-        return res;
-            
-        
+vector<int> inOrder(Node* root) {
+       
+        vector <int> ans;
+        if(root != NULL){
+      
+          inOrder(root->left);
+          cout << (root->data) << " ";
+          inOrder(root->right);
+          return ans;
+                
+         }   
     }
-
-
 Time complexity - O(n)

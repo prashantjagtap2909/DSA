@@ -7,6 +7,6 @@ int insert(int arr[], int n , int x , int cap,int pos){
     for(int i = n-1;i>=index ; i++){
         arr[i+1] = arr[i]
     }
-    arr[index = x;
+    arr[index = x];
     return (n-1);
 }

@@ -16,7 +16,7 @@ vector<int> bfsOfGraph(int V, vector<int> adj[]) {
             
             for(auto u :adj[f]){
                 if(!visited[u]){
-                    visited[u]==true;
+                    visited[u]=true;
                     q.push(u);
                 }
             }

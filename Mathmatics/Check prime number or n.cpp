@@ -12,3 +12,6 @@ bool isPrime(int n ){
             return false;
     return true;
 }
+
+
+Time complexity - O(n)

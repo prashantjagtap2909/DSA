@@ -16,3 +16,5 @@ int MaximumOccuring(int l[],int r[],int n){
     }
     return res;
 }
+
+Time complexity - O(N)

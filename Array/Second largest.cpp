@@ -16,3 +16,5 @@ int secondLargest(int arr[],int n){
         return res;
         
     }
+
+time complexity - o(n)

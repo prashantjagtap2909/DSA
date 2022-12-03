@@ -10,3 +10,6 @@ bool isPalindromic(int n ){
     }
     return (rev==n);
 }
+
+
+Time complexity - O(n)

@@ -10,7 +10,7 @@
 &emsp;  3] [Array](https://github.com/prashantjagtap2909/DSA/tree/main/Array) <br /> 
   &emsp;  4] [Searching](https://github.com/prashantjagtap2909/DSA/tree/main/Searching) <br /> 
   &emsp;  5] [Sorting](https://github.com/prashantjagtap2909/DSA/tree/main/Sorting) <br /> 
-  &emsp;  6] Matrix <br />
+  &emsp;  6] [Matrix](https://github.com/prashantjagtap2909/DSA/tree/main/Matrix) <br />
   &emsp;  7] String <br />
   &emsp;  8] Hashing <br />
  &emsp;  9] Stack <br />

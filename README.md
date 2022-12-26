@@ -12,7 +12,7 @@
   &emsp;  5] [Sorting](https://github.com/prashantjagtap2909/DSA/tree/main/Sorting) <br /> 
   &emsp;  6] [Matrix](https://github.com/prashantjagtap2909/DSA/tree/main/Matrix) <br />
   &emsp;  7] [String](https://github.com/prashantjagtap2909/DSA/tree/main/String) <br />
-  &emsp;  8] Hashing <br />
+  &emsp;  8] [Hashing](https://github.com/prashantjagtap2909/DSA/tree/main/Hashing) <br />
  &emsp;  9] Stack <br />
  &emsp;  10] Queue <br />
  &emsp;  11] Dequeue <br />

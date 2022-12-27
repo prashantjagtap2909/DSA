@@ -13,7 +13,7 @@
   &emsp;  6] [Matrix](https://github.com/prashantjagtap2909/DSA/tree/main/Matrix) <br />
   &emsp;  7] [String](https://github.com/prashantjagtap2909/DSA/tree/main/String) <br />
   &emsp;  8] [Hashing](https://github.com/prashantjagtap2909/DSA/tree/main/Hashing) <br />
- &emsp;  9] Stack <br />
+ &emsp;  9] [Stack](https://github.com/prashantjagtap2909/DSA/tree/main/Stack) <br />
  &emsp;  10] Queue <br />
  &emsp;  11] Dequeue <br />
 &emsp;    12] [Binary Tree](https://github.com/prashantjagtap2909/DSA/tree/main/Binary-Tree) <br />

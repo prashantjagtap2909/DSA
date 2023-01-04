@@ -18,7 +18,7 @@
  &emsp;  11] Dequeue <br />
 &emsp;    12] [Binary Tree](https://github.com/prashantjagtap2909/DSA/tree/main/Binary-Tree) <br />
   &emsp;  13] [Binary Search Tree](https://github.com/prashantjagtap2909/DSA/tree/main/Binary-search-tree) <br />
-   &emsp; 14] Heap <br />
+   &emsp; 14] [Heap](https://github.com/prashantjagtap2909/DSA/tree/main/Heap) <br />
  &emsp;  15] Graph <br />
  &emsp;  16] Dynamic Programming <br />
  &emsp;  17] Tries <br />

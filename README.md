@@ -20,7 +20,7 @@
   &emsp;  13] [Binary Search Tree](https://github.com/prashantjagtap2909/DSA/tree/main/Binary-search-tree) <br />
    &emsp; 14] [Heap](https://github.com/prashantjagtap2909/DSA/tree/main/Heap) <br />
  &emsp;  15] Graph <br />
- &emsp;  16] Dynamic Programming <br />
+ &emsp;  16] [Dynamic Programming](https://github.com/prashantjagtap2909/DSA/tree/main/Dynamic-Programming) <br />
  &emsp;  17] Tries <br />
  &emsp;  18] Linked list <br />
     

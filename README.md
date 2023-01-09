@@ -22,5 +22,5 @@
  &emsp;  15] Graph <br />
  &emsp;  16] [Dynamic Programming](https://github.com/prashantjagtap2909/DSA/tree/main/Dynamic-Programming) <br />
  &emsp;  17] Tries <br />
- &emsp;  18] Linked list <br />
+ &emsp;  18] [Linked list](https://github.com/prashantjagtap2909/DSA/tree/main/Linked-list) <br />
     

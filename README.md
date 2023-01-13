@@ -21,6 +21,6 @@
    &emsp; 14] [Heap](https://github.com/prashantjagtap2909/DSA/tree/main/Heap) <br />
  &emsp;  15] [Graph](https://github.com/prashantjagtap2909/DSA/tree/main/Graph) <br />
  &emsp;  16] [Dynamic Programming](https://github.com/prashantjagtap2909/DSA/tree/main/Dynamic-Programming) <br />
- &emsp;  17] Tries <br />
+ &emsp;  17] [Tries](https://github.com/prashantjagtap2909/DSA/tree/main/Tries) <br />
  &emsp;  18] [Linked list](https://github.com/prashantjagtap2909/DSA/tree/main/Linked-list) <br />
     

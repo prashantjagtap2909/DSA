@@ -1,7 +1,7 @@
  # **DSA**  <br />
  
  This repository is for beginner who want to learn Data structure and algorithm.<br />
- In this repo I will add some questions daily based on DSA concept.At the end approximately more than 500 question will be there.<br />
+ In this repo I will add some questions daily, based on DSA concept.At the end approximately more than 500 question will be there.<br />
  <br /><br />
    
  ## **Questions is based on following topic**<br /><br />

@@ -6,3 +6,4 @@ int MaximumDifference(int arr[],int n){
         res = max(res,arr[i]-minval);
         minval = min(minval,arr[i]);
 }
+Time complexity -O(n)

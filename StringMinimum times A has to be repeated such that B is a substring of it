@@ -1,0 +1,21 @@
+Given two strings A and B. Find minimum number of times A has to be repeated such that B is a Substring of it. If B can never be a substring then return -1.
+
+int minRepeats(string A, string B) {
+        string repet = A;
+        int count=1;
+        while(A.size()<B.size()){
+            A+=repet;
+            count++;
+        }
+       
+        if(A.find(B)!=-1) 
+            return count;
+        A+=repet;
+        count++;
+        if(A.find(B)!=-1) 
+            return count;
+        return -1;
+    }
+    
+    
+    Time complexity - O(n)

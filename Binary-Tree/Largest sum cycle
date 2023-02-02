@@ -1,0 +1,54 @@
+Largest sum cycle
+
+
+ void solved(int s, vector<int>adj[], vector<int>& temp, long long& res, int visited[], int dfsVisited[]){
+      visited[s] = 1;
+      dfsVisited[s] = 1;
+      temp.push_back(s);
+      for(auto j : adj[s]){
+          if(!visited[j]){
+              solved(j, adj, temp, res, visited, dfsVisited);
+          }
+          else{
+              if(dfsVisited[j] == 1){
+                  long long t = 0;
+                  int status = 0;
+                  for(auto it : temp){
+                      if(it == j){
+                          t+= it;
+                          status = 1;
+                      }
+                      if(status == 1){
+                          t+= it;
+                      }
+                  }
+                  t-=j;
+                  res = max(res,t);
+                  temp.pop_back();
+                  dfsVisited[s] = 0;
+                  return;
+              }
+          }
+      }
+      temp.pop_back();
+      dfsVisited[s] = 0;
+  }
+  long long largestSumCycle(int N, vector<int> Edge)
+  {
+      vector<int>adj[N];
+      for(int i=0;i<N;i++){
+          if(Edge[i] != -1){
+            adj[i].push_back(Edge[i]);  
+          }
+      }
+      vector<int>temp;
+      long long res = -1;
+      int visited[N] = {0};
+      int dfsVisited[N] = {0};
+      for(int i=0;i<N;i++){
+          if(!visited[i]){
+              solved(i, adj, temp, res, visited, dfsVisited);
+          }
+      }
+      return res;
+  }

@@ -5,8 +5,8 @@
  <br /><br /><br />
    
  ## **Questions is based on following topic**<br /><br />
-  &emsp;  1] [Mathematical](https://github.com/prashantjagtap2909/DSA/tree/main/Array) <br /> 
- &emsp;  2] [Recursion](https://github.com/prashantjagtap2909/DSA/tree/main/Mathmatics) <br /> 
+  &emsp;  1] [Mathematical](https://github.com/prashantjagtap2909/DSA/tree/main/Mathmatics) <br /> 
+ &emsp;  2] [Recursion](https://github.com/prashantjagtap2909/DSA/tree/main/Recursion) <br /> 
 &emsp;  3] [Array](https://github.com/prashantjagtap2909/DSA/tree/main/Array) <br /> 
   &emsp;  4] [Searching](https://github.com/prashantjagtap2909/DSA/tree/main/Searching) <br /> 
   &emsp;  5] [Sorting](https://github.com/prashantjagtap2909/DSA/tree/main/Sorting) <br /> 
